@@ -99,7 +99,7 @@ const TemplateComponent = () => {
           </Routes>
           <Footer />
 
-          {exploreOption ? <Explore /> : ""}
+          {exploreOption ? <Explore /> : ' '}
         </Box>
       </Router>
       {blankStatus ? <Blank /> : ""}
@@ -108,5 +108,3 @@ const TemplateComponent = () => {
 };
 
 export default TemplateComponent;
-
-

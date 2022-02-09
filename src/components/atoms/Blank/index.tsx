@@ -1,5 +1,5 @@
 import {Box} from "@mui/material"
-import theme from "../../../Themes/theme";
+import theme from "../../../Themes/main";
 
 const BlankComponent = () => {
     return (

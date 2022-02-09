@@ -99,7 +99,7 @@ const BookInfoComponent = ({ library, setLibrary }: any) => {
     for (let curr of library.currentlyReading) {
       console.log(curr.id, bookId);
       // eslint-disable-next-line eqeqeq
-      if (curr.id === bookId) {
+      if (curr.id == bookId) {
         setcurrentlyReadingStatus(true);
         return;
       }
@@ -119,7 +119,7 @@ const BookInfoComponent = ({ library, setLibrary }: any) => {
   const libraryStatusHandler = async (event: any) => {
     try {
       let index = library.currentlyReading.findIndex(
-        (curr: any) => curr.id === bookId
+        (curr: any) => curr.id == bookId
       );
       let currData = library.currentlyReading[index];
       library.currentlyReading.splice(index, 1);
