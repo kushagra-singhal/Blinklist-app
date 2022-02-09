@@ -119,6 +119,7 @@ const BookInfoComponent = ({ library, setLibrary }: any) => {
   const libraryStatusHandler = async (event: any) => {
     try {
       let index = library.currentlyReading.findIndex(
+        // eslint-disable-next-line eqeqeq
         (curr: any) => curr.id == bookId
       );
       let currData = library.currentlyReading[index];
