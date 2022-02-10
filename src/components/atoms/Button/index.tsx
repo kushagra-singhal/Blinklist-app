@@ -2,7 +2,7 @@ import React from "react";
 import Button from "@mui/material/Button";
 import { ThemeProvider } from "@mui/material";
 
-import Theme  from "../../../Themes/theme";
+import Theme  from "../../../Themes/buttonTheme";
 
 const ButtonComponent = (props: any) => {
     return (

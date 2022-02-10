@@ -21,6 +21,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src/Themes/theme.tsx", "../Typescript/index.tsx", "../Typescript/Banner"
+    "src/Themes/buttonTheme.tsx", "../Typescript/index.tsx", "../Typescript/Banner"
   ]
 }

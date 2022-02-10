@@ -20,7 +20,7 @@
 import React from "react";
 import { Typography } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
-import Theme  from "../../../Themes/theme";
+import Theme  from "../../../Themes/buttonTheme";
 
 const TypographyComponents = (props:any) => {
   return (

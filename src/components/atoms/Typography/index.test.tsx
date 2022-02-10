@@ -2,7 +2,7 @@
 import { render, screen } from '@testing-library/react';
 import TypographyComponents from '.';
 import { ThemeProvider } from '@mui/material/styles';
-import Theme from '../../../Themes/theme';
+import Theme from '../../../Themes/buttonTheme';
  
 test('it render the text passed from prop', () => {
 

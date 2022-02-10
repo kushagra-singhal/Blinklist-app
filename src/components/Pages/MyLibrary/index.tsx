@@ -4,7 +4,7 @@ import Typography from "../../atoms/Typography";
 import Tab from "../../molecules/tabs";
 import Card from "../../organisms/Card";
 import CircularProgress from "@mui/material/CircularProgress";
-import Theme from "../../../Themes/theme";
+import Theme from "../../../Themes/buttonTheme";
 import { makeStyles } from "@mui/styles";
 const useStyle = makeStyles({
   cards: {
