@@ -93,13 +93,13 @@ const EntrepreneurComp = ({
       <Box>
         {data.map((curr: any) => {
           return (
-            <Box>
+            <Box data-testid='container'>
               <Typography className={classes.heading} sx={{}}>
                 {curr.heading}
               </Typography>
               <Box className={classes.main}>
                 {!library ? (
-                  <CircularProgress />
+                  <CircularProgress data-testid='circular-progress'/>
                 ) : (
                   curr.books.map((currData: any) => {
                     currData = books[currData.id];

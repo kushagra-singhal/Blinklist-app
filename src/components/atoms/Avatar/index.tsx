@@ -8,4 +8,4 @@ function AvatarComp () {
     )
 }
 
-export default AvatarComp
+export default AvatarComp;

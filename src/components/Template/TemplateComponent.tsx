@@ -44,7 +44,7 @@ const TemplateComponent = () => {
         height: "100vh",
       }}
     >
-      <CircularProgress />
+      <CircularProgress data-testid='circular-progress' />
     </Container>
   ) : (
     <Box>
@@ -99,7 +99,7 @@ const TemplateComponent = () => {
           </Routes>
           <Footer />
 
-          {exploreOption ? <Explore /> : ' '}
+          {exploreOption ? <Explore data-testid='explore-box' /> : " "}
         </Box>
       </Router>
       {blankStatus ? <Blank /> : ""}

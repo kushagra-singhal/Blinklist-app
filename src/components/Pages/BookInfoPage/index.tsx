@@ -174,7 +174,7 @@ const BookInfoComponent = ({ library, setLibrary }: any) => {
     }
   };
   return !bookData ? (
-    <CircularProgress />
+    <CircularProgress data-testid='circular-progress'/>
   ) : (
     <Container>
       <Typography
@@ -232,7 +232,7 @@ const BookInfoComponent = ({ library, setLibrary }: any) => {
               className={classes.statusBox}
             />
             {currentlyReadingStatus ? (
-              <Button
+              <Button data-testid='status-handler'
                 children='Finished Reading'
                 size='medium'
                 variant='contained'
