@@ -30,7 +30,7 @@ describe('Home', () => {
         const bannerElement = screen.getByPlaceholderText('Search by title or author');
         expect(bannerElement).toBeInTheDocument();
     })
-    test('should render containers matching to data length', async () => {
+    test('it should render containers matching to data length', async () => {
         render(router(data, books, library));
         const extraElement = await screen.findAllByTestId('container');
         expect(extraElement.length).toBe(data.length);

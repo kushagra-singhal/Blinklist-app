@@ -33,7 +33,7 @@ describe('Library', () => {
         const linkElement = screen.queryByTestId('circular-progress');
         expect(linkElement).not.toBeInTheDocument();
     });
-    test('should render same no of finished books',async () => {
+    test('it should render same no of finished books',async () => {
         render(router(books, library));
         const tabsElement = screen.getByTestId(/tab-finished/);
         fireEvent.click(tabsElement);

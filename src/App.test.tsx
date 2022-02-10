@@ -6,7 +6,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import theme from './Themes/main';
 
 
-test('render the App Component', () => {
+test('renders the App Component', () => {
   const component = renderer.create(
     <ThemeProvider theme={theme}>
       <CssBaseline />

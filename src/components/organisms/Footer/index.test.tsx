@@ -2,7 +2,7 @@ import Footer from '.';
 import renderer from 'react-test-renderer';
 
 
-test('Footer', () => {
+test('render Footer', () => {
     const component = renderer.create(
         <Footer />
     );

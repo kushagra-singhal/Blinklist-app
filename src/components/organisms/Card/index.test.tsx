@@ -21,7 +21,7 @@ const router = (prop:any)=>{
     )
 }
 
-test('it should render same bookname text', () => {
+test('it should render the same bookname text', () => {
   render(router(props));
   const linkElement = screen.getByText('Being Boss');
   expect(linkElement).toBeInTheDocument();
