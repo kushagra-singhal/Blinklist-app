@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">11.11% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>1/9</span>
+                <span class='fraction'>9/9</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">12.5% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>1/8</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -123,7 +123,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">9x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -133,17 +133,14 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -153,7 +150,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">31x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -175,7 +175,7 @@ import tabTheme from '../../../Themes/tabsTheme';
 import { ThemeProvider } from '@mui/material/styles';
 import { makeStyles } from '@material-ui/core/styles';
 &nbsp;
-const useStyles = makeStyles(<span class="fstat-no" title="function not covered" >(t</span>hemes) =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+const useStyles = makeStyles((themes) =&gt; ({
   [themes.breakpoints.down('sm')]: {
       tab: {
           fontSize: '13px',
@@ -183,16 +183,16 @@ const useStyles = makeStyles(<span class="fstat-no" title="function not covered"
       }
   },
 }));
-export default function <span class="fstat-no" title="function not covered" >TabsWrappedLabel(</span>{tabData, ...props}: any) {
+export default function TabsWrappedLabel({tabData, ...props}: any) {
 &nbsp;
-  const classes = <span class="cstat-no" title="statement not covered" >useStyles();</span>
-  const [value, setValue] = <span class="cstat-no" title="statement not covered" >React.useState(tabData &amp;&amp; tabData[0].value);</span>
-  const handleChange = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(e</span>vent: React.SyntheticEvent, newValue: string) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >    setValue(newValue);</span>
-<span class="cstat-no" title="statement not covered" >    props.stateHandler(newValue);</span>
+  const classes = useStyles();
+  const [value, setValue] = React.useState(tabData &amp;&amp; tabData[0].value);
+  const handleChange = (event: React.SyntheticEvent, newValue: string) =&gt; {
+    setValue(newValue);
+    props.stateHandler(newValue);
   };
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  return (</span>
+  return (
     &lt;Box sx={{ borderBottom: 1, borderColor: 'divider', width:'912px' }}&gt;
     &lt;ThemeProvider theme={tabTheme}&gt;
       &lt;Tabs
@@ -204,8 +204,8 @@ export default function <span class="fstat-no" title="function not covered" >Tab
         data-testid='tabs'
       &gt;
         {
-          tabData.map(<span class="fstat-no" title="function not covered" >(c</span>urrTab:any) =&gt; {
-<span class="cstat-no" title="statement not covered" >            return (</span>
+          tabData.map((currTab:any) =&gt; {
+            return (
               &lt;Tab 
               value={currTab.value} 
               label={currTab.label} 
@@ -226,7 +226,7 @@ export default function <span class="fstat-no" title="function not covered" >Tab
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Tue Feb 08 2022 10:06:31 GMT+0530 (India Standard Time)
+                at Thu Feb 10 2022 10:16:49 GMT+0530 (India Standard Time)
             </div>
         <script src="../../../../prettify.js"></script>
         <script>

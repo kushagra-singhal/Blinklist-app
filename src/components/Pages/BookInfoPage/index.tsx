@@ -119,6 +119,7 @@ const BookInfoComponent = ({ library, setLibrary }: any) => {
   const libraryStatusHandler = async (event: any) => {
     try {
       let index = library.currentlyReading.findIndex(
+        // eslint-disable-next-line eqeqeq
         (curr: any) => curr.id == bookId
       );
       let currData = library.currentlyReading[index];
@@ -173,7 +174,7 @@ const BookInfoComponent = ({ library, setLibrary }: any) => {
     }
   };
   return !bookData ? (
-    <CircularProgress />
+    <CircularProgress data-testid='circular-progress'/>
   ) : (
     <Container>
       <Typography
@@ -231,7 +232,7 @@ const BookInfoComponent = ({ library, setLibrary }: any) => {
               className={classes.statusBox}
             />
             {currentlyReadingStatus ? (
-              <Button
+              <Button data-testid='status-handler'
                 children='Finished Reading'
                 size='medium'
                 variant='contained'

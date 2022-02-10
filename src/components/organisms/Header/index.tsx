@@ -33,7 +33,7 @@ const HeaderComponent = (props: any) => {
     setAnchorElUser(null);
   };
   return (
-    <AppBar
+    <AppBar data-testid='box'
       position='fixed'
       sx={{
         color: "black",
@@ -62,10 +62,10 @@ const HeaderComponent = (props: any) => {
                 setSearchState(false);
                 props.setBlankStatus(false);
               }}
-            />
+              data-testid='search-box' />
           ) : (
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              <Button
+              <Button data-testid='search-state-button'
                 onClick={() => {
                   setSearchState(true);
                   props.setBlankStatus(true);
@@ -82,7 +82,7 @@ const HeaderComponent = (props: any) => {
               />
 
               <Button
-                data-testid='explorebutton'
+                data-testid='ehandle-explore'
                 onClick={props.handleExploreMenu}
                 size='medium'
                 key={1}
