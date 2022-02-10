@@ -24,7 +24,7 @@ test('Input Components', () => {
 });
 
 
-test('it should render the input element', () => {
+test('it should render input element', () => {
     render(<InputComponent placeholder="Search by title or author"/>);
     const inputElement = screen.getByPlaceholderText(/Search by title or author/);
     expect(inputElement).toBeInTheDocument();

@@ -6,7 +6,7 @@ import AddIcon from '@mui/icons-material/Add';
 
 const mockCallback = jest.fn();
 
-it("handles hover state", ()=>{
+it("handles the hover state", ()=>{
   render(
     <NavIcon label='blinkist' onMouseEnter={mockCallback} onMouseLeave={mockCallback} leftIcon={<AddIcon data-testid='left-icon'/>}/>);
     const NavElement = screen.getByTestId('tp');

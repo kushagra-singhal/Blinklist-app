@@ -30,7 +30,7 @@ describe("Header", () => {
     response = await fetch("http://localhost:3000/books");
     books = await response.json();
   });
-  test("it search-state-button the button should be clickable", async () => {
+  test("it search-state-button button should be clickable", async () => {
     render(router(books));
     const searchButtonElement = await screen.findByTestId("box");
   });
