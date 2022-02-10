@@ -11,7 +11,7 @@ function renderExplore() {
   }
 
 describe("Explore", () => {
-    test('render the ExploreBy category heading', () => {
+    test('renders the ExploreBy category heading', () => {
         renderExplore();
         const linkElement = screen.getByText('Explore by category')
         expect(linkElement).toBeInTheDocument();

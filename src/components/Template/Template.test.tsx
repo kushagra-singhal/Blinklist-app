@@ -24,7 +24,7 @@ describe('Template', () => {
 
     })
 
-    test('should render circular bar if data is empty', () => {
+    test('it should render circular bar if data is empty', () => {
         render(router());
         const linkElement = screen.getByTestId('circular-progress');
         expect(linkElement).toBeInTheDocument()

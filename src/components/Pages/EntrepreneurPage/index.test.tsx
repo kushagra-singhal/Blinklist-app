@@ -35,7 +35,7 @@ describe('Home', () => {
         const extraElement = await screen.findAllByTestId('container');
         expect(extraElement.length).toBe(data.length);
     })
-    test('should render a circularbox if library is empty', async () => {
+    test('should render circularbox if library is empty', async () => {
         let librarys = false;
         render(router(data, books, librarys));
         const circularElement = await screen.findAllByTestId('circular-progress');

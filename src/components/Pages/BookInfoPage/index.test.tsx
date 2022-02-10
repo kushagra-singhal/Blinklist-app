@@ -34,7 +34,7 @@ describe('it is the Book Info', () => {
         const linkElement = screen.queryByTestId('circular-progress');
         expect(linkElement).not.toBeInTheDocument()
     });
-    test('should render the tabs with clickable option',async () => {
+    test('should render tabs with clickable option',async () => {
         render(router(library));
         await new Promise((r) => setTimeout(r, 2000));
         const tabsElement = screen.getByTestId(/tab-audience/);

@@ -3,7 +3,7 @@ import React from "react";
 import AddIcon from '@mui/icons-material/Add';
 import Icon from '.';
 
-test('it should render passed icon', () => {
+test('it should render the passed icon', () => {
     render(<Icon icon={<AddIcon data-testid='add-icon'/>}/>);
     const iconElement = screen.getByTestId('add-icon');
     expect(iconElement).toBeInTheDocument();

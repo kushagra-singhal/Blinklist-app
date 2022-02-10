@@ -28,7 +28,7 @@ test('it should render the same bookname text', () => {
 });
 
 
-test('should render the same writer name text', () => {
+test('should render the same writer named text', () => {
     render(router(props));
     const linkElement = screen.getByText('Kathleen Shannon and Emily...');
     expect(linkElement).toBeInTheDocument();
