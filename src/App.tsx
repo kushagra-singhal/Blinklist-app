@@ -3,24 +3,35 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import './App.css';
 import Template from './components/Template/TemplateComponent';
 import theme from "./Themes/main";
+
 // import MyLibrary from './components/Pages/MyLibrary';
-
-// import TemplateComponent from './components/Template/TemplateComponent';
-
+// import HeaderComponent from './components/organisms/Header';
 
 
 
 function App() {
-  return (
-    <div className='App'>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Template  />
-        {/* <TemplateComponent /> */}
-      </ThemeProvider>
+  
+  
+  
+  return(
+    <div data-testid="App1" className="App">
+
+
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Template />
+      
+
+     
+    </ThemeProvider>
+
     </div>
   );
+
 }
+
+
+
 
 
 export default App;

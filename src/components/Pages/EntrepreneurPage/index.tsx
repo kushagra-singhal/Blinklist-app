@@ -99,7 +99,7 @@ const EntrepreneurComp = ({
               </Typography>
               <Box className={classes.main}>
                 {!library ? (
-                  <CircularProgress data-testid='circular-progress'/>
+                  <CircularProgress data-testid='circular-progress' />
                 ) : (
                   curr.books.map((currData: any) => {
                     currData = books[currData.id];

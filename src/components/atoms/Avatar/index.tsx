@@ -2,9 +2,9 @@ import { Avatar } from "@mui/material";
 import React from "react";
 import { blue } from "@mui/material/colors";
 
-function AvatarComp () {
+function AvatarComp ({name,...props}:any) { 
     return (
-        <Avatar sx={{ bgcolor: blue[500] }} data-testid="avatar">A</Avatar>
+        <Avatar sx={{ bgcolor: blue[500] }} data-testid="avatar">{name}</Avatar>
     )
 }
 

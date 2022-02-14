@@ -25,7 +25,8 @@
     {
       "id": 2,
       "name": "Doesn't Hurt to Ask",
-      "url": "https://s3-alpha-sig.figma.com/img/076f/7bd2/672e13400982c462d295d772e14f20a8?Expires=1644796800&Signature=Iq36Cd~qg6JqSaVU90FZ1yUFa~mUR5q6zRLx7CV8HTbMc2NOqHpNAzY0rRuya2eCIX-6jJPtTFqmQAXKaP2V8g0RArvpKpnv0jb4hHNRSo2WTz1w2fgRFdpX~q-yCYIH1p00huGogkM7myFuoI4XUvVoFjZlDJ~mjZ~kFNzcbBWpo3ogmTxV2qT6WJMMs6nHyaoVJ56SvgqA0x0jxTFByWRdFEpnSudayuXdoDYznX7ksYKsXVTc9gJYayheuy6-ny8fPogaC0yyAtAkWOG2kxWcueWU2jC6ex6j3dI3guRwBu6rWubLLD7R7GlF2pNXNQsYPJkyYcMgHbzoI2w6uQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "url": "https://s3-alpha-sig.figma.com/img/076f/7bd2/672e13400982c462d295d772e14f20a8?Expires=1646006400&Signature=EDQ3NFM9I~x9oeFAUc6YfxhnEpbtx34vLlmd7XN67WzxZlyIdh~C2Q3bvdZaUdiYpAA8bPO5l-dLataA6AvqQqtr5DIETl~k-UK94H0ZBiCNhvxpY~gfC3eJxCWLyFUyqd-K33F3aX~cIURvA7qnxoFBQO1l1NLCNSsPKW5ZGv373ivazjMTjNJem4G7vgX8wCI7jZcoSBi-6LzCN3T3LrXCD2yYI74bORQCeaXI0ETwiCWu2oKplieJmkMn-hrruhud8NHpNyb2VXe3L~UtdiCrG3q50ZsUMMx0DxhH7M1kYVa2nSluKU7j8rDgn7qOcWwxCnVk3J0otWGWcPTHYQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+
       "writerName": "Trey Gowdy",
       "timeRead": "13-minute read",
       "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
@@ -58,7 +59,7 @@
     {
       "id": 5,
       "name": "Loving Your Business",
-      "url": "https://s3-alpha-sig.figma.com/img/f789/7b02/2da4a7f458cc476fb504b5ec892de6bf?Expires=1644796800&Signature=FjwhP~Im~ocC88Cvf-z7KWGTam6ig4rB1k4wSCF1hZA5mvBPsdCCkUHlZvSuDTOXue79mOaBoS3a-oVfwcjRwMPWOuNAy-7NOI855iUNq4Po~jpafs5mJm4Oq7riGiOYatFHg19AHOlGXKW-aqo0~4PvvaYKxqtJ-vtSnGi-V8Ptl-DH7~asTFghCSoItl7-D8jRRVbgioa5lEa2eZiZuwLGyNPelM6ICvj22tfoX19gdQi4LWULOPfaQvwY-UvmkH6NaMIaP8R52Q1vXpWPXxXllmkZ5udiUE0O6IoeY2japX65FgvjLZxQ5Wkk1H6I4aYgJHUmNDGDqkjNxsPyLA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "url": "https://s3-alpha-sig.figma.com/img/f789/7b02/2da4a7f458cc476fb504b5ec892de6bf?Expires=1646006400&Signature=gI8tA9A6tfN6azXrkdbIj0hfHSUg645MMCTrzMamkcxgplzVvZRs1eRWa~TR3~McI~QshzbGYdZgCk9FtPU-Vyo2hiHgIuiDNKrd2RPVjvXU0vdwL-cpT-iM0L32Bh0sqZAIwRAAoHiiC4nvFNiLvrO-WzKKoDMUS0a8K1Rp7m6DKutECXf9ZmCTuLUsU-SWFqNstVIw27ofewi1Up87zFr-5vXKbphEhqYCN3lJ9G~-x7EEVS3psPE4TEEFbjbfP-Sz8Rf46A79jVfuMxemZTPEk~ofYfHNWPepvLqNhEg69wN9hsKtY18LfSJjOYeV08pJWROYOYsqE1HvO1-a9A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
       "timeRead": "13-minute read",
       "writerName": "Debbie King",
       "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
@@ -140,9 +141,6 @@
         "progress": 90
       },
       {
-        "id": 10
-      },
-      {
         "id": 8
       }
     ],
@@ -155,13 +153,8 @@
       },
       {
         "id": 11
-      },
-      {
-        "id": 7
-      },
-      {
-        "id": 0
       }
+      
     ]
   },
   "extra": [
